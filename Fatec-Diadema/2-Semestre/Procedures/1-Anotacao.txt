@@ -1,0 +1,31 @@
+STORED PROCEDURES (AUTOMAÇÃO)
+
+->  São funções que fazem ações no banco
+    Elas podem alterar tabelas
+
+    Use quando você quer encapsular uma lógica que será executada muitas vezes, como atualizar estoque, reajustar preços, apagar registros antigos etc
+
+Exemplo 1:
+
+CREATE PROCEDURE aumentarPreco
+    @porcentagem DECIMAL(5,2)
+
+    AS
+    BEGIN
+        UPDATE Produtos                
+            SET preco = preco + (preco * (@porcentagem / 100)) 
+    END
+
+EXEC aumentarPreco 10
+
+Exemplo 2:
+CREATE PROCEDURE buscarCliente
+    @idCliente INT
+
+    AS
+    BEGIN  
+        SELECT * FROM Clientes
+        WHERE id = @idCliente
+    END
+
+EXEC BuscarCliente 2;

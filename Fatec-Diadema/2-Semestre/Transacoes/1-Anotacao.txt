@@ -1,0 +1,26 @@
+TRANSAÇÕES
+
+O que é Transações?
+->  É um bloco de operações que precisma funcionar juntas
+    Se falhar, nenhuma é executada
+
+Propriedades ACID
+-   Atomicidade: Tudo acontece ou nada acontece
+-   Consistência: Mantém o banco válido depois da transação
+-   Isolamento: Cada transação age como se fosse única no banco
+-   Durabilidade: Depois do Commit, o dado fica salvo mesmo após uma queda de energia
+
+Exemplo de transação (transferência entre contas)
+
+START Transaction;
+    UPDATE contas
+        SET saldo = saldo - 100
+            WHERE id = 1
+    
+    UPADATE contas  
+        SET saldo = saldo + 500
+            WHERE id = 2
+COMMIT
+
+Se algo der errado no meio:
+->  ROLLBACK

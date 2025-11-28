@@ -1,0 +1,26 @@
+CONTROLE DE ACESSO
+
+O que é controle de acesso?
+->  Diz quem pode fazer o que no banco, gerenciando permissões, usuarios e roles
+
+Comandos importantes:
+
+1.  Create User
+2.  Grant ->    Concede permissão
+3.  Revoke ->   Revoga permissão
+4.  Roles ->    Grupos de permissão
+
+Exemplo de criação de usuário:
+->  CREATE USER 'guilherme' IDENTIFIED BY '123'
+
+Permitir usar o SELECT na Tabela Clientes
+->  GRANT SELECT ON loja.Clientes TO 'guilherme'
+
+Impedir o INSERT
+->  REVOLKE INSERT ON loja.Clientes FROM 'guilherme'
+
+Criar uma Role LEITOR
+->  CREATE ROLE LEITOR
+        GRANT SELECT ON loja.* TO LEITOR
+
+    ALTER ROLE LEITOR ADD MEMBER 'guilherme'

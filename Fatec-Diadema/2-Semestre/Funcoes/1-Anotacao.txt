@@ -1,0 +1,36 @@
+FUNÇÕES
+
+->  Funções sempre retornam algo, como uma calculadora embutida no banco da dados
+    Elas são chamadas dentro das queries
+
+Pontos essenciais:
+-   Sempre retornam um tipo
+-   Usam RETURN Valor
+-   São usadas dentro dos selects
+
+Exemplo:
+CREATE FUNCTION CalcularIdade(@ano_nasc INT)
+RETURNS INT
+    BEGIN
+        RETURN 2025 - @ano_nasc
+    END
+
+SELECT nome, CalcularIdade(ano_nasc) AS Idade
+FROM Pessoas
+
+Pegar um valor de dentro de uma Tabela
+
+CREATE FUNCTION fn_buscarPreco(@id INT)
+RETURN DECIMAL(10,2)
+AS
+    BEGIN
+        DECLARE @preco DECIMAL(10,2)
+        SELECT @preco = Preco
+            FROM Produtos
+        WHERE id = @id
+
+        RETURNS @Preco
+    END
+
+SELECT dbo.fn_buscarPreco(3) AS PRECO
+
