@@ -1,0 +1,74 @@
+Motor da Inovação: Data Science
+
+O que é Data Science?
+    Data Science é a área que usa dados para gerar conhecimento e apoiar decisões.
+
+    Ela é formada por 3 pilares:
+
+    -   Matemática e Estatística → para analisar os dados
+    -   Ciência da Computação → para programar e processar dados
+    -   Conhecimento do Negócio → para entender o problema e gerar valor
+
+    Quando essas três áreas trabalham juntas, conseguimos transformar dados em decisões inteligentes.
+
+O que são dados?
+    Dados são informações brutas, ou seja, fatos ainda sem interpretação.
+
+    Exemplos:
+
+        Notícias
+        Compras no e-commerce
+        Programas de TV
+        Redes sociais
+
+    Esses dados são a matéria-prima dos negócios.
+
+    Como funciona na prática?
+        Coleta → Organização → Análise → Geração de Insights
+
+    Ou seja:
+        Dados → Informação → Conhecimento → Decisão
+
+Tipos de Dados
+
+1.  Dados Estruturados
+    São organizados em formato de tabela (linhas e colunas).
+
+    Exemplo:
+
+    -   Planilhas
+    -   Bancos de dados SQL
+
+    Possuem formato fixo.
+
+2️.  Dados Semi-Estruturados
+    Possuem alguma organização, mas não seguem um modelo rígido.
+
+    Exemplo:
+    
+    -   JSON
+    -   XML
+
+    Não têm formato totalmente fixo, mas possuem marcações.
+
+3️.  Dados Não Estruturados
+    Não possuem organização definida.
+
+    Exemplos:
+
+    -   Vídeos
+    -   Imagens
+    -   Áudios
+    -   Textos de redes sociais
+
+    São mais difíceis de analisar.
+
+Big Data
+    Big Data é o conjunto de dados muito grandes, complexos e que crescem rapidamente, exigindo tecnologias especiais para armazenar e analisar.
+
+    Os 4 V’s do Big Data
+
+    -   Volume → Grande quantidade de dados
+    -   Velocidade → Dados são gerados muito rápido
+    -   Variedade → Diferentes formatos (texto, vídeo, tabela, etc.)
+    -   Veracidade → Confiabilidade e qualidade dos dados

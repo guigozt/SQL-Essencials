@@ -1,0 +1,20 @@
+Modelo relacional:
+
+    -   Estrutura: 
+            Baseado em tabelas, com linhas e colunas
+
+    -   Identificação: 
+            O endereço de registro como Id/chave
+
+    -   Conexão: 
+            Relacionamento dos dados ocorre atraves de valores registrados
+
+O que é ACID?
+    A ->    Atomocidade 
+        Assegura que uma transação seja executada completamente ou não seja executada
+    C ->    Consistencia
+        garante que o banco de dados permaneça em um estado válido antes e depois de uma transação
+    I ->    Isolamento
+        assegura que transações simultâneas não interfiram umas nas outras, mantendo o banco no mesmo estado que estaria se as transações fossem executadas em sequência
+    D ->    Durabilidade
+         garante que, uma vez confirmada, uma transação permanecerá registrada, mesmo em caso de falhas no sistema, como quedas de energia.

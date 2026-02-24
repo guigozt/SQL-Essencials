@@ -1,0 +1,40 @@
+1.  O que são dados?
+    São os valores brutos como números, imagens, textos que sozinho não possuem significado completo
+
+2.  O que é informação?
+    É o resultado da organização, interpretação e contextualização dos dados, gerando significado
+
+3.  Explique a frase: "Dados, matéria prima dos negócios"
+    Assim como o petróleo é essencial para a industria, os dados são a base para gerar informações estratégicas
+
+4.  Explique a frase "data is the new oil"
+    Significa que os dados são o novo recurso mais valioso do mundo
+
+5.  O que são dados estruturados?
+    São os dados organizados em forma tabular, como Planilhas ou Tabelas SQL
+
+6.  O que são dados semi-estrurados?
+    Os dados possuem alguma organização, mas não seguem um modelo fixo, como JSON ou XML
+
+7.  O que são dados não estruturados?
+    Não possuem um formato fixo ou definido, como Videos ou Audio
+
+8.  Cite alguns bancos de dados NoSQl
+    MongoDb e Cassandra
+
+9.  O que é BigData?
+    Conjunto de volume de dados extremamente grandes, gerados em alta velocidade e diversos formatos
+
+10. Explique o banco de dados Cassandra:
+    É um banco de dados NoSQL, com alta disponibilidade, tolerancia a falhas e ideal para grandes volumes de dados
+
+11. Explique o banco de dados MongoDB:
+    Banco de dados NoSQL orientado a documentos. Armazena em formato JSON, Estrutura flexivel e facil integração ccom Web
+
+12. Quais são os 4 V's do BigData?
+    Velocidade, Variedade, Volume, Veracidade
+
+13. É possivel aplicar uma estrutura NoSQL no banco de dados MySQL?
+    É possivel aplicar, mas o MySQL não se torna um banco NoSQL, algumas possibilidades são:
+    -   Armazenamento de JSON
+    -   Estrutura flexivel dentro das colunas
