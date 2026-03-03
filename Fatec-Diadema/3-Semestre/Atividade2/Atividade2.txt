@@ -1,0 +1,68 @@
+14. Explique todas as caracteristicas de um Banco de dados relacional
+
+    - Modelado em tabelas: OS dados são organizados em tabelas
+    - Chaves primárias e estrangeiras para relacionamento entre tabelas
+    - Transcição seguras como ACID
+    - Esquema definido (Schema): Estrutura dos dados
+
+15. O que é ACID?
+    
+    Conjunto de propriedades que garatem confiabilidade nas transações:
+    
+    A - Atomicidade: A transação acontece por completo ou não acontece, se houver falha, tudo é desfeito
+    C - Consistência: O banco respeita regras e restrições
+    I - Isolamento: Transações simultâneas não interferem umas nas outras
+    C - Durabilidade: Após confirmada, a transação não é perdida, mesmo em casos de falhas
+
+16. O que é NoSQL
+
+    Significa "Not Only SQL", é um modelo de banco de dados que:
+    - Não utiliza tabelas relacionais
+    - Possui esquema flexivel
+    - Voltado para grandes volumes de dados
+    - Escalabilidade horizontal
+    - Exemplos: MongoDB e Cassandra
+
+17. Explique alta Escalabilidade
+
+    É capacidade de um sistema aumentar ou diminui sua capacidade de processamento de acordo com a demanda
+    - Escalabilidade vertical: Aumenta recursos de um servidor como: CPU e memória
+    - Escalabilidade horizontal: Adicionar mais servidores ao sistema
+
+18. Explique disponibilidade:
+
+    Capacidade de um sistema permanecer acessivel e operacional quando ocorre falhas, como queda de servidor, erro no hardware ou problemas na rede
+
+19. Explique desempenho em ambientes distribuidos
+
+    Os dados e o processamento estão espalhados em varios servidores, com objetivo de garantir rapidez mesmo com grandes volumes de dados, dependendo de:
+    - Latência de rede
+    - Balancemanto de carga
+    - Comunicação eficiente
+
+20. Quais são os pilares do processamento e modelagem de dados em Big Data?
+
+    Volume: Grande quantidade de dados
+    Velocidade: Dados gerados e processados rapidamente
+    Variedade: Diferentes tipos de dados
+    Veracidade: Confiabilidade dos dados
+    Valor: Capacidade de gerar informação util
+
+21. O que são dados estruturados
+
+    Dados organizados em formato fixo e bem definido, geralmente em tabelas, como:
+    - Planilhas
+    - Banco de dados relacional
+
+22. O que são dados semi-estruturados
+
+    Possuem alguma organização, mas não seguem um modelo fixo, como:
+    - JSON
+    - XML
+
+23. O que são dados não estruturados
+
+    Dados que não possuem formato organizado definido, como:
+    - Videos
+    - Imagens
+    - Audios
