@@ -1,0 +1,95 @@
+1️⃣ O que é JSON
+
+JSON (JavaScript Object Notation) é um formato de texto para guardar dados estruturados.
+
+Ele funciona com pares de chave e valor, parecido com um dicionário.
+
+Exemplo:
+
+{
+  "nome": "Ana",
+  "idade": 25,
+  "cidade": "São Paulo"
+}
+
+nome → chave
+
+Ana → valor
+
+JSON é muito usado em APIs, aplicações web e bancos de dados modernos.
+
+2️⃣ O que é SQL
+
+SQL (Structured Query Language) é a linguagem usada para trabalhar com bancos de dados relacionais.
+
+Com SQL você pode:
+
+criar tabelas
+
+inserir dados
+
+buscar dados
+
+atualizar dados
+
+deletar dados
+
+Exemplo:
+
+SELECT nome FROM usuarios;
+
+Isso busca o nome dos usuários.
+
+3️⃣ JSON dentro do SQL
+
+Hoje muitos bancos permitem guardar JSON dentro de uma coluna.
+
+Exemplo de tabela:
+
+id	dados
+1	{"nome":"Ana","idade":25}
+2	{"nome":"Carlos","idade":30}
+
+A coluna dados guarda JSON.
+
+4️⃣ Consultando dados do JSON
+
+Alguns bancos (como **PostgreSQL, MySQL e SQL Server) permitem acessar campos dentro do JSON.
+
+Exemplo (PostgreSQL):
+
+SELECT dados->>'nome' FROM usuarios;
+
+Isso pega o nome que está dentro do JSON.
+
+Exemplo:
+
+        CREATE TABLE fatec(
+        id int,
+        documento json null
+    )
+
+    insert INTO fatec VALUES(1, '{
+                            "nome": "João",
+                            "idade": 30,
+                            "casado": true,
+                            "filhos": ["Maria", "Douglas"]
+                            }'
+                    )
+                    
+    SELECT * from fatec
+
+Resultado:
+
+    id         |        documento
+    1          |        {"nome": "João", "idade": 30, "casado": true, "filhos": ["Maria", "Douglas"]}
+
+Outras formas de visualizar:
+
+    SELECT
+        -- Pega um campo especifico do JSON e exibe em forma de coluna própria
+        JSON_EXTRACT(fatec, "$.idade") AS idade
+    FROM
+        fatec
+        -- Exibe de uma forma mais amigavel
+    SELECT JSON_PRETTY(fatec) as JSON_DOCUMENT from fatec

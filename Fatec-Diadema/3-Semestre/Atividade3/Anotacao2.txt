@@ -1,0 +1,68 @@
+1️⃣ Paradigma antigo do SQL (modelo relacional puro)
+
+O paradigma antigo é baseado no modelo relacional, criado por
+Edgar F. Codd na IBM.
+
+A ideia principal é:
+
+📊 dados organizados em tabelas bem estruturadas
+
+Exemplo:
+
+Tabela usuarios
+
+| id | nome | idade |
+| -- | ---- | ----- |
+| 1  | João | 30    |
+| 2  | Ana  | 25    |
+
+Cada informação tem uma coluna específica.
+
+Características do paradigma antigo
+
+estrutura fixa
+
+dados normalizados
+
+muitas tabelas relacionadas
+
+foco em consistência
+
+Exemplo:
+
+SELECT nome FROM usuarios WHERE idade > 20;
+
+Bancos que seguem muito esse modelo:
+
+Oracle Database
+
+MySQL
+
+PostgreSQL
+
+2️⃣ Paradigma novo do SQL (relacional + dados flexíveis)
+
+Com aplicações modernas (APIs, apps, big data), surgiu um paradigma mais flexível.
+
+Agora os bancos permitem guardar dados semi-estruturados, como JSON.
+
+Exemplo:
+
+
+| id | documento                  |
+| -- | -------------------------- |
+| 1  | {"nome":"João","idade":30} |
+
+Características do paradigma novo
+
+📦 Flexibilidade
+Não precisa mudar tabela sempre.
+
+⚡ Integração com APIs
+APIs geralmente retornam JSON.
+
+🧩 Dados semi-estruturados
+
+Exemplo:
+
+SELECT documento->'$.nome' FROM usuarios;
