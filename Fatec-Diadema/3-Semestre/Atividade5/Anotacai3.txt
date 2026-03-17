@@ -1,0 +1,192 @@
+✅ JSON virou tipo nativo no:
+➡️ MySQL 5.7 (lançado em 2015)
+
+🏗️ Como funciona na prática?
+1. Armazenar JSON em uma tabela
+
+Você pode ter uma coluna do tipo JSON:
+
+Exemplo (MySQL / PostgreSQL):
+CREATE TABLE usuarios (
+    id INT PRIMARY KEY,
+    dados JSON
+);
+
+Inserindo dados:
+
+INSERT INTO usuarios (id, dados)
+VALUES (1, '{"nome": "Ana", "idade": 25}');
+
+🧩 1. JSON_PRETTY (formatar JSON)
+
+Serve para deixar o JSON bonito e legível (indentado).
+
+Exemplo:
+SELECT JSON_PRETTY('{"nome":"Ana","idade":25}');
+Saída:
+{
+  "nome": "Ana",
+  "idade": 25
+}
+
+👉 Útil para:
+
+Debug
+
+Visualização
+
+Logs
+
+⚠️ Não muda o dado no banco, só a exibição.
+
+✅ 2. JSON_VALID (validar JSON)
+
+Verifica se um texto é um JSON válido.
+
+Exemplo:
+SELECT JSON_VALID('{"nome":"Ana"}');
+
+👉 Resultado:
+
+1  (válido)
+Exemplo inválido:
+SELECT JSON_VALID('{nome: Ana}');
+
+👉 Resultado:
+
+0  (inválido)
+
+👉 Útil para:
+
+Validar entrada de dados
+
+Evitar erros antes de inserir no banco
+
+🧠 3. JSON_TYPE (descobrir o tipo do JSON)
+
+Retorna qual é o tipo do valor JSON.
+
+Exemplo:
+SELECT JSON_TYPE('{"nome":"Ana"}');
+
+👉 Resultado:
+
+OBJECT
+
+🧩 O que é JSON_EXTRACT?
+
+👉 Serve para extrair um valor de dentro de um JSON usando um caminho (path).
+
+🏗️ Sintaxe
+JSON_EXTRACT(json, caminho)
+
+ou (forma abreviada no MySQL):
+
+json->'caminho'
+📦 Exemplo básico
+SELECT JSON_EXTRACT('{"nome":"Ana","idade":25}', '$.nome');
+
+👉 Resultado:
+
+"Ana"
+
+🔎 Caminho JSON (path)
+
+O caminho sempre começa com $ (raiz do JSON).
+
+Exemplos:
+
+| Caminho             | Significado                |
+| ------------------- | -------------------------- |
+| `$.nome`            | campo nome                 |
+| `$.idade`           | campo idade                |
+| `$.endereco.cidade` | campo aninhado             |
+| `$[0]`              | primeiro elemento de array |
+
+🧩 O que é JSON_SEARCH?
+
+👉 Serve para encontrar um valor dentro do JSON e retornar o path (caminho) dele.
+
+🏗️ Sintaxe
+JSON_SEARCH(json, modo, valor)
+Parâmetros:
+
+json → o documento JSON
+
+modo → 'one' ou 'all'
+
+valor → o que você quer encontrar
+
+🎯 Exemplo básico
+SELECT JSON_SEARCH('{"nome":"Ana","cidade":"SP"}', 'one', 'Ana');
+
+👉 Resultado:
+
+"$.nome"
+
+👉 Ele encontrou "Ana" no campo nome.
+
+🔄 Modos: 'one' vs 'all'
+🔹 'one'
+
+Retorna apenas a primeira ocorrência
+
+SELECT JSON_SEARCH('["Ana","João","Ana"]', 'one', 'Ana');
+
+👉 Resultado:
+
+"$[0]"
+🔹 'all'
+
+Retorna todas as ocorrências
+
+SELECT JSON_SEARCH('["Ana","João","Ana"]', 'all', 'Ana');
+
+👉 Resultado:
+
+["$[0]", "$[2]"]
+
+🧩 1. JSON_SET (adiciona OU altera)
+
+👉 Essa é a mais usada.
+
+Se o campo existe → atualiza
+
+Se não existe → cria
+
+Exemplo:
+SELECT JSON_SET('{"nome":"Ana"}', '$.idade', 25);
+
+👉 Resultado:
+
+{"nome":"Ana","idade":25}
+Atualizando:
+SELECT JSON_SET('{"nome":"Ana","idade":20}', '$.idade', 25);
+
+👉 Resultado:
+
+{"nome":"Ana","idade":25}
+🧩 2. JSON_INSERT (só adiciona)
+
+👉 Só insere se não existir
+
+SELECT JSON_INSERT('{"nome":"Ana"}', '$.idade', 25);
+
+👉 Resultado:
+
+{"nome":"Ana","idade":25}
+Se já existir:
+SELECT JSON_INSERT('{"nome":"Ana","idade":20}', '$.idade', 25);
+
+👉 Resultado:
+
+{"nome":"Ana","idade":20}
+
+❗ Não altera
+
+🧩 4. JSON_REMOVE (remove campo)
+SELECT JSON_REMOVE('{"nome":"Ana","idade":25}', '$.idade');
+
+👉 Resultado:
+
+{"nome":"Ana"}

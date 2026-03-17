@@ -1,0 +1,103 @@
+58. Qual foi o banco não relacional criado pela Google em 2004?
+
+👉 Foi o Google Bigtable
+
+59. Diferença entre BD Relacional e Não Relacional
+🧱 Relacional (SQL)
+
+Estrutura em tabelas
+
+Usa esquema fixo
+
+Linguagem: SQL
+
+Relações com chaves (PK/FK)
+
+Alta consistência
+
+👉 Ex: MySQL, PostgreSQL
+
+🌐 Não Relacional (NoSQL)
+
+Estrutura flexível
+
+Pode usar:
+
+JSON
+
+chave-valor
+
+grafos
+
+Não exige esquema fixo
+
+Foco em escalabilidade
+
+👉 Ex: MongoDB, Cassandra
+
+60. Teorema CAP (muito importante)
+
+O Teorema CAP diz que um sistema distribuído não pode garantir os 3 ao mesmo tempo:
+
+🔺 C – Consistência
+
+Todos veem os mesmos dados
+
+🔺 A – Disponibilidade
+
+Sistema sempre responde
+
+🔺 P – Tolerância a Partição
+
+Funciona mesmo com falhas de rede
+
+61. Categorias de BD Não Relacional
+🔑 1. Chave-Valor
+
+Dados em pares: chave → valor
+
+Muito rápido
+
+👉 Ex: Redis
+
+📄 2. Documento
+
+Armazena JSON ou XML
+
+Estrutura flexível
+
+👉 Ex: MongoDB
+
+📊 3. Colunar (Wide-column)
+
+Armazena por colunas
+
+Alta performance em grandes volumes
+
+👉 Ex: Cassandra
+
+🔗 4. Grafos
+
+Foco em relacionamentos
+
+Usa nós e arestas
+
+👉 Ex: Neo4j
+
+62. Vantagens do BD Não Relacional
+
+✅ Alta escalabilidade
+✅ Alta escalabilidade
+✅ Flexibilidade de dados
+✅ Melhor desempenho em grandes volumes
+✅ Ideal para Big Data e sistemas distribuídos
+✅ Não precisa de esquema fixo
+
+63. Desvantagens do BD Não Relacional
+
+❌ Menor consistência (em alguns casos)
+❌ Não usa SQL padrão (às vezes)
+❌ Mais difícil de modelar relações complexas
+❌ Menos padronização
+❌ Pode ser mais complexo para consultas específicas
+
