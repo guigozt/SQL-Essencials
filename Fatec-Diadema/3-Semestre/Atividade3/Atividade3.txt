@@ -1,0 +1,136 @@
+26. Explique o banco de dados MariaDB
+
+O MariaDB é um sistema de gerenciamento de banco de dados relacional criado como um fork do MySQL. Ele é open source, compatível com MySQL e foi desenvolvido para oferecer maior desempenho, segurança e novas funcionalidades.
+
+27. Explique o banco de dados MySQL
+
+O MySQL é um sistema de gerenciamento de banco de dados relacional (SGBD) muito utilizado em aplicações web. Ele utiliza SQL (Structured Query Language) para criar, manipular e consultar dados organizados em tabelas.
+
+28. MariaDB e MySQL trabalham com dados estruturados?
+
+Sim.
+
+Tanto MariaDB quanto MySQL trabalham com dados estruturados, ou seja, dados organizados em tabelas com colunas e linhas, seguindo um esquema definido (tipos de dados, relacionamentos e restrições).
+
+Esses bancos seguem o modelo relacional, onde os dados são armazenados de forma organizada e normalizada.
+
+29. O que é serialização?
+
+Serialização é o processo de converter um objeto ou estrutura de dados em um formato que possa ser armazenado ou transmitido, como JSON ou XML.
+
+Esse processo permite salvar dados em arquivos ou enviá-los pela rede.
+
+30. O que é JSON?
+
+JSON (JavaScript Object Notation) é um formato leve de troca de dados, baseado em texto, utilizado para armazenar e transmitir informações entre sistemas, especialmente em APIs e aplicações web.
+
+Ele utiliza pares chave-valor.
+
+Exemplo simples:
+
+{
+  "nome": "João",
+  "idade": 25
+}
+31. Exemplo de JSON utilizando arrays
+{
+  "nome": "Maria",
+  "idade": 22,
+  "disciplinas": ["Banco de Dados", "Algoritmos", "Redes"]
+}
+
+Nesse exemplo, disciplinas é um array (lista).
+
+32. Para que serve o JSON Online?
+
+Ferramentas de JSON Online servem para:
+
+validar JSON
+
+formatar JSON
+
+testar estrutura de dados
+
+identificar erros de sintaxe
+
+Elas ajudam desenvolvedores a visualizar e corrigir dados JSON facilmente.
+
+33. Como criar uma tabela no MySQL utilizando JSON?
+
+No MySQL é possível criar uma coluna do tipo JSON.
+
+Exemplo:
+
+CREATE TABLE clientes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    dados JSON
+);
+
+Inserindo dados:
+
+INSERT INTO clientes (dados)
+VALUES ('{"nome":"João","idade":30}');
+
+34. Criar JSON para seguinte classe abaixo:
+{
+  "Cpf": "12345678900",
+  "Primeiro_Nome": "João",
+  "Nome_Meio": "Carlos",
+  "Ultimo_Nome": "Silva",
+  "Data_Nascimento": "1990-05-10",
+  "Endereco": "Rua das Flores, 123",
+  "Salario": 4500.75,
+  "Sexo": "Masculino",
+  "Cpf_Supervisor": "98765432100",
+  "Numero_Departamento": 10,
+  "Dependentes": [
+    {
+      "Nome_Dependente": "Maria Silva",
+      "Sexo": "Feminino",
+      "Data_Nascimento": "2015-03-12",
+      "Parentesco": "Filha"
+    },
+    {
+      "Nome_Dependente": "Pedro Silva",
+      "Sexo": "Masculino",
+      "Data_Nascimento": "2018-07-22",
+      "Parentesco": "Filho"
+    }
+  ]
+}
+
+
+35. JSON para Conta Corrente
+{
+  "nomeCorrentista": "Carlos Silva",
+  "sexo": "Masculino",
+  "idade": 35,
+  "numeroConta": "123456-7",
+  "contaConjunta": false,
+  "saldo": 2500.75
+}
+36. JSON para classe Aluno
+
+Classe:
+
+Aluno
+
+nome:string
+
+matricula:string
+
+nota1:double
+
+nota2:double
+
+notaRevisao:double
+
+JSON:
+
+{
+  "nome": "Ana Souza",
+  "matricula": "20240123",
+  "nota1": 7.5,
+  "nota2": 8.0,
+  "notaRevisao": 0.0
+}

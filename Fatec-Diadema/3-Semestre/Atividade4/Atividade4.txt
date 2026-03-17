@@ -1,0 +1,111 @@
+39. O que é arquitetura de Banco de Dados não convencionais
+
+Arquitetura de bancos de dados não convencionais refere-se a modelos de banco de dados diferentes do modelo relacional tradicional, projetados para lidar com grandes volumes de dados, dados não estruturados, alta escalabilidade e processamento distribuído, sendo muito utilizados em ambientes de Big Data e Internet das Coisas.
+
+40. Exemplos de arquitetura de Banco de Dados não convencionais
+
+Alguns exemplos são:
+
+Bancos NoSQL
+
+Bancos orientados a documentos
+
+Bancos chave-valor
+
+Bancos orientados a colunas
+
+Bancos orientados a grafos
+
+Bancos de dados distribuídos
+
+41. Principais fases para desenvolvimento de um projeto Big Data
+
+As principais fases são:
+
+Coleta de dados – obtenção de dados de diferentes fontes.
+
+Armazenamento – guardar os dados em sistemas adequados (ex.: Data Lake).
+
+Processamento e tratamento – limpeza, organização e preparação dos dados.
+
+Análise de dados – uso de algoritmos e ferramentas analíticas.
+
+Visualização e tomada de decisão – interpretação dos resultados.
+
+42. Explique Data Lake
+
+Data Lake é um repositório de armazenamento que permite guardar grandes volumes de dados brutos, estruturados ou não estruturados, vindos de diversas fontes, sem necessidade de organização prévia.
+
+43. Vantagens do Data Lake
+
+Armazenamento de grandes volumes de dados
+
+Suporte a dados estruturados e não estruturados
+
+Escalabilidade
+
+Flexibilidade para análises futuras
+
+Integração com tecnologias de Big Data
+
+44. Explique Cloud Computing
+
+Cloud Computing é um modelo de computação que permite acessar recursos de TI (servidores, armazenamento, bancos de dados e softwares) pela internet, sem necessidade de infraestrutura física local.
+
+45. Explique Hybrid Cloud
+
+Hybrid Cloud é um modelo que combina nuvem pública e nuvem privada, permitindo que dados e aplicações sejam compartilhados entre esses ambientes.
+
+46. Cloud computing segundo o NIST
+
+Segundo o National Institute of Standards and Technology (NIST), Cloud Computing é um modelo que permite acesso sob demanda, via rede, a um conjunto compartilhado de recursos computacionais configuráveis, como servidores, armazenamento e aplicações, que podem ser rapidamente disponibilizados com mínimo esforço de gerenciamento.
+
+47. Segundo Laudon, explique a necessidade de Big Data
+
+Segundo Kenneth Laudon, Big Data é necessário porque organizações geram quantidades massivas de dados, e sua análise permite melhor tomada de decisões, identificação de padrões, aumento de eficiência e vantagem competitiva.
+
+48. O que é Data Mining
+
+Data Mining é o processo de descobrir padrões, tendências e conhecimentos úteis em grandes conjuntos de dados, utilizando técnicas estatísticas e algoritmos.
+
+49. Explique os 5V do Big Data
+
+Os 5V do Big Data são:
+
+Volume – grande quantidade de dados.
+
+Velocidade – rapidez na geração e processamento dos dados.
+
+Variedade – diferentes tipos de dados.
+
+Veracidade – confiabilidade dos dados.
+
+Valor – utilidade das informações extraídas.
+
+50. O que é transparência em Big Data
+
+Transparência em Big Data refere-se à clareza e visibilidade no uso e processamento dos dados, permitindo entender como os dados são coletados, analisados e utilizados.
+
+51. O que são ações preditivas em Big Data
+
+Ações preditivas são previsões baseadas na análise de dados históricos, permitindo antecipar comportamentos ou eventos futuros e auxiliar na tomada de decisão.
+
+52. O que é Cross-selling em Big Data
+
+Cross-selling é uma estratégia de vendas que utiliza análise de dados para oferecer produtos ou serviços complementares aos clientes com base em seus hábitos de consumo.
+
+Questões objetivas
+53.
+
+Resposta correta:
+(c) Big Data
+
+54.
+
+Resposta correta:
+(d) Compreendem três etapas: coleta de dados, tratamento de dados e atividades analíticas para interpretar os dados.
+
+55.
+
+Resposta correta:
+(e) Volume, velocidade, veracidade, variedade e valor.

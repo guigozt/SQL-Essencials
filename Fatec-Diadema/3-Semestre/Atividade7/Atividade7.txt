@@ -1,0 +1,31 @@
+Resumo – Capítulo 1
+
+O capítulo inicia destacando que a sociedade atual vive na era da informação, marcada pelo crescimento acelerado de dispositivos conectados e sensores que geram grandes volumes de dados. Esse aumento é impulsionado principalmente pela expansão da Internet das Coisas, na qual diversos equipamentos coletam e transmitem informações constantemente.
+
+Devido a essa enorme quantidade de dados, surge a necessidade de tecnologias capazes de armazenar, processar e analisar informações em grande escala. Nesse contexto surge o conceito de Big Data, caracterizado principalmente pelos 3Vs definidos pela Gartner:
+
+Volume: grande quantidade de dados gerados.
+
+Variedade: diferentes tipos de dados (sensores, redes sociais, vídeos, logs, etc.).
+
+Velocidade: rapidez com que os dados são gerados e precisam ser processados.
+
+Essas características trazem desafios importantes relacionados à captura, armazenamento, pesquisa e análise de dados. Os bancos de dados relacionais tradicionais apresentam limitações nesse cenário, principalmente por possuírem estruturas rígidas e pouco flexíveis.
+
+Como alternativa, surgem os bancos de dados NoSQL, que oferecem maior flexibilidade na estrutura de dados e melhor escalabilidade horizontal, sendo mais adequados para lidar com grandes volumes de dados heterogêneos.
+
+O crescimento da Internet das Coisas intensifica ainda mais essa necessidade, pois dispositivos conectados geram grandes quantidades de dados continuamente. Empresas e instituições têm investido fortemente nessa área, como demonstra a estratégia da IBM ao investir em soluções e plataformas relacionadas à IoT.
+
+Diante desse cenário, o trabalho tem como objetivo principal propor uma modelagem estrutural de banco de dados NoSQL em ambiente Big Data voltada para dados provenientes da Internet das Coisas, especialmente dados meteorológicos coletados por sensores.
+
+Para atingir esse objetivo, o estudo propõe:
+
+investigar modelos de bancos de dados NoSQL existentes;
+
+analisar o armazenamento de dados provenientes da IoT;
+
+desenvolver um estudo de caso com dados meteorológicos do Instituto Nacional de Meteorologia;
+
+avaliar a modelagem proposta por meio de testes de desempenho e consultas.
+
+Por fim, o capítulo apresenta a estrutura da monografia, que é organizada em cinco capítulos: fundamentação teórica, desenvolvimento da modelagem, resultados e discussões, e conclusões.
