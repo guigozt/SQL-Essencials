@@ -1,0 +1,77 @@
+📊 Teorema CAP (em NoSQL)
+
+O Teorema CAP diz que, em um sistema distribuído, você só pode garantir 2 de 3 propriedades ao mesmo tempo:
+
+🔹 C — Consistência (Consistency)
+
+Todos os nós veem os mesmos dados ao mesmo tempo.
+➡️ Após uma escrita, qualquer leitura retorna o valor mais recente.
+
+🔹 A — Disponibilidade (Availability)
+
+O sistema sempre responde (mesmo que com dados desatualizados).
+➡️ Nunca “cai” completamente.
+
+🔹 P — Tolerância a Partições (Partition Tolerance)
+
+O sistema continua funcionando mesmo com falhas de rede entre nós.
+
+⚖️ Combinações possíveis:
+
+CP (Consistência + Partição) → sacrifica disponibilidade
+
+AP (Disponibilidade + Partição) → sacrifica consistência imediata
+
+📱 Exemplo: WhatsApp / rede social
+
+Você manda uma mensagem.
+
+Agora imagine que há um problema de rede (partição). Os servidores não conseguem se comunicar.
+
+👉 O sistema precisa escolher:
+
+🔴 Opção 1 — Priorizar Consistência (CP)
+
+Você envia mensagem
+
+O sistema não responde imediatamente
+
+Ele espera garantir que todos os servidores tenham a mesma informação
+
+➡️ Resultado:
+
+✔ Dados corretos
+
+❌ Pode travar ou demorar
+
+📌 Exemplo real:
+
+Bancos de dados como MongoDB (configurado para consistência forte)
+
+🟢 Opção 2 — Priorizar Disponibilidade (AP)
+
+Você envia mensagem
+
+O sistema responde na hora
+
+Mas pode acontecer de:
+
+outra pessoa ver a mensagem com atraso
+
+➡️ Resultado:
+
+✔ Sempre responde rápido
+
+❌ Pode ter inconsistência temporária
+
+📌 Exemplo real:
+
+Cassandra, DynamoDB
+
+💡 Ideia-chave do CAP:
+
+Quando dá problema na rede, você escolhe:
+
+👉 “Prefere sistema sempre online?”
+OU
+👉 “Prefere dados sempre 100% corretos?”

@@ -1,0 +1,106 @@
+1. Modelo Chave-Valor (Key-Value)
+
+É o mais simples possível.
+
+👉 Funciona como um dicionário:
+
+chave → valor
+📌 Exemplo:
+"user:123" → "João Silva"
+
+Ou:
+
+"carrinho:456" → {
+  "produto": "Notebook",
+  "preco": 3000
+}
+🧠 Características:
+
+🔑 A chave é única
+
+📦 O valor é “caixa preta” (o banco não entende o conteúdo)
+
+⚡ Extremamente rápido
+
+❌ Não dá pra consultar por campos internos facilmente
+
+2. Modelo Documento (Document Store)
+
+Aqui o banco entende a estrutura dos dados (JSON, BSON).
+
+👉 Em vez de só guardar, ele consegue consultar dentro do documento.
+
+📌 Exemplo:
+{
+  "id": 123,
+  "nome": "João",
+  "idade": 25,
+  "cidade": "São Paulo"
+}
+🧠 Características:
+
+📄 Dados em formato JSON-like
+
+🔍 Dá pra buscar por campos internos:
+
+nome
+
+idade
+
+cidade
+
+🧩 Estrutura flexível (sem schema fixo)
+
+⚖️ Menos rápido que key-value, mas muito mais poderoso
+
+🛠️ Exemplos:
+
+MongoDB
+
+CouchDB
+
+📱 Exemplo prático (buscar usuários)
+
+Você pode fazer consultas como:
+
+buscar usuários onde idade > 20 e cidade = "São Paulo"
+
+👉 Isso não dá pra fazer facilmente em chave-valor
+
+Analogia simples
+🔑 Chave-Valor
+
+Um armário com etiquetas
+
+Você só abre se souber a chave exata
+
+Não dá pra “procurar dentro”
+
+📄 Documento
+
+Um arquivo organizado
+
+Você pode buscar por nome, idade, cidade…
+
+Muito mais flexível
+
+🚀 Quando usar cada um?
+Use Chave-Valor quando:
+
+Precisa de muita velocidade
+
+Acesso direto por ID
+
+Cache, sessões, tokens
+
+👉 Ex: Redis
+
+Use Documento quando:
+
+Precisa fazer consultas mais complexas
+
+Dados têm estrutura (JSON)
+
+Quer flexibilidade
+
+👉 Ex: MongoDB
