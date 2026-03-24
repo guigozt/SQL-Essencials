@@ -1,0 +1,27 @@
+O capítulo apresenta conceitos sobre modelagem de dados, bancos de dados (relacionais e não relacionais), sistemas gerenciadores de banco de dados e Big Data.
+
+A modelagem de dados é o processo de criar uma representação dos dados de um sistema, com o objetivo de atender às necessidades do negócio. A etapa conceitual é uma das mais importantes, pois define a estrutura inicial do banco de dados. O desenvolvimento de um banco passa por etapas como levantamento de requisitos, projeto conceitual, projeto lógico e projeto físico.
+
+Existem duas abordagens principais de modelagem: a bottom-up, que parte de dados já existentes e tende a ser mais técnica e limitada, e a top-down, que começa de forma mais abstrata, focando nas necessidades do negócio, sendo mais completa e organizada. De modo geral, os modelos de dados ajudam a descrever os dados, seus relacionamentos e regras, podendo ser classificados em modelos lógicos e físicos.
+
+Os modelos lógicos podem ser divididos em dois grupos. Os modelos baseados em objetos incluem o modelo Entidade-Relacionamento (ER), que representa dados por meio de entidades, atributos e relacionamentos e é muito utilizado na fase inicial; o modelo orientado a objetos, que organiza dados como objetos com atributos e métodos; o modelo semântico, que foca no significado dos dados; e o modelo funcional, que representa processos e atividades do sistema.
+
+Já os modelos baseados em registros incluem o modelo relacional, que organiza os dados em tabelas (relações), compostas por linhas (tuplas) e colunas (atributos). Esse modelo utiliza chave primária e chave estrangeira para definir relacionamentos, além de permitir diferentes tipos de atributos e relacionamentos (1:1, 1:N, N:N). Ele é a base para consultas utilizando álgebra relacional e a linguagem SQL. Também fazem parte desse grupo o modelo de rede, que organiza dados como registros conectados; o modelo hierárquico, que estrutura os dados em forma de árvore; e o modelo orientado a objetos.
+
+Os modelos físicos representam o nível mais baixo do banco de dados, ou seja, a forma como os dados são armazenados, sendo menos abordados.
+
+O modelo não relacional (NoSQL) surgiu para lidar com grandes volumes de dados. Ele é mais flexível, escalável e distribuído, além de não exigir um esquema rígido. Seus principais tipos são: chave/valor, colunas, documentos (como JSON e XML) e grafos, sendo este último ideal para representar relações complexas.
+
+Um banco de dados é uma coleção organizada de dados relacionados, que representa informações do mundo real com um propósito específico. Ele pode ser manual ou computadorizado, e seu gerenciamento envolve armazenamento, manipulação e segurança dos dados.
+
+O Sistema Gerenciador de Banco de Dados (SGBD) é o software responsável por criar, gerenciar, acessar e proteger os bancos de dados. Entre suas principais funções estão o armazenamento de dados e metadados, a execução de consultas, o controle de acesso, além de mecanismos de backup e recuperação. O SGBD também utiliza linguagens como DDL (definição de dados), DML (manipulação de dados) e mantém um dicionário de dados.
+
+Os SGBDs relacionais são baseados em tabelas e utilizam SQL. Eles seguem o modelo ACID, que garante atomicidade, consistência, isolamento e durabilidade das transações. Suas principais vantagens são a confiabilidade e a consistência, enquanto suas desvantagens incluem menor escalabilidade e maior rigidez.
+
+Já os SGBDs não relacionais (NoSQL) são mais flexíveis e escaláveis, não exigem esquema fixo e oferecem alta disponibilidade, replicação de dados e consistência eventual.
+
+O PostgreSQL é um banco de dados relacional, open source, conhecido por sua confiabilidade e robustez. Ele suporta JSON, diversos tipos de dados e possui recursos avançados como controle de concorrência e replicação. Foi utilizado para preparar os dados, embora apresente limitações em cenários de Big Data.
+
+O MongoDB, por sua vez, é um banco de dados NoSQL de alta performance e escalabilidade. Ele armazena dados em documentos organizados em coleções, permitindo estruturas flexíveis. Utiliza formatos como JSON e BSON, além de oferecer suporte a índices e consultas avançadas.
+
+Por fim, o Big Data refere-se a grandes volumes de dados complexos, que exigem tecnologias específicas para armazenamento e processamento. Entre seus principais desafios estão a análise, o armazenamento, a segurança e o processamento eficiente dos dados. Uma das técnicas utilizadas nesse contexto é o MapReduce, que permite o processamento paralelo dos dados em duas etapas: Map, que organiza e transforma os dados, e Reduce, que agrupa e processa os resultados.

@@ -1,0 +1,122 @@
+🧠 1. Data Warehouse e Data Marts (Anatomia)
+📦 O que é Data Warehouse (DW)?
+
+É um grande repositório de dados usado para análise e tomada de decisão.
+
+👉 Pense assim:
+
+Banco de dados comum = operações do dia a dia
+Data Warehouse = análise estratégica (relatórios, BI)
+🧩 Anatomia do Data Warehouse
+
+Um DW geralmente tem essas camadas:
+
+1. Fontes de dados
+Sistemas operacionais (ERP, CRM)
+APIs
+Arquivos (Excel, CSV)
+2. ETL / ELT
+ETL (Extract, Transform, Load):
+Extrai dados
+Transforma (limpa, organiza)
+Carrega no DW
+3. Armazenamento (DW)
+Dados organizados (geralmente em modelo dimensional)
+Estrutura otimizada para leitura (consultas)
+4. Camada de acesso (BI)
+Ferramentas como dashboards e relatórios
+🧱 Data Marts
+
+São subconjuntos do Data Warehouse, focados em áreas específicas.
+
+👉 Exemplo:
+
+DW = empresa inteira
+Data Mart = setor de vendas ou financeiro
+
+Vantagens:
+
+Mais rápido
+Mais simples
+Focado no usuário
+
+⚡ 2. Plataformas Analíticas de Alta Performance
+
+São sistemas projetados para analisar grandes volumes de dados rapidamente.
+
+🔥 Características principais:
+Processamento em paralelo (várias máquinas ao mesmo tempo)
+Alta escalabilidade
+Otimização para leitura (consultas rápidas)
+Suporte a Big Data
+🧠 Exemplos de tecnologias:
+Data Warehouse modernos
+Data Lakes
+Engines analíticas (como Spark)
+
+👉 Ideia simples:
+
+“Em vez de um computador analisar tudo, vários trabalham juntos ao mesmo tempo.”
+
+☁️ 3. Microsoft Fabric (MS Fabric)
+
+O Microsoft Fabric é uma plataforma moderna de dados da Microsoft.
+
+💡 O que ele faz?
+
+Une várias ferramentas em um só lugar:
+
+Engenharia de dados
+Data Warehouse
+Data Lake
+BI (Power BI)
+
+👉 Tudo integrado na nuvem.
+
+🧩 Principais componentes:
+OneLake → armazenamento central (tipo “OneDrive dos dados”)
+Data Factory → ingestão e transformação de dados (ETL)
+Data Warehouse → armazenamento estruturado
+Power BI → dashboards e relatórios
+🎯 Vantagem principal:
+Tudo em um único ambiente (menos complexidade)
+
+⚙️ O que é OLTP?
+
+OLTP (Online Transaction Processing) é um tipo de sistema usado para registrar operações do dia a dia em tempo real.
+
+👉 Em outras palavras:
+
+É o sistema que cuida das transações operacionais da empresa.
+
+🛒 Exemplo (supermercado)
+
+Quando você vai ao caixa e compra um produto:
+
+O sistema registra a venda
+Atualiza o estoque
+Salva o pagamento
+
+👉 Tudo isso é OLTP
+
+⚡ Características do OLTP
+Dados em tempo real
+Muitas operações pequenas (inserir, atualizar, deletar)
+Foco em velocidade e precisão
+Alta consistência (não pode dar erro)
+🧱 Exemplos de uso
+Sistema de caixa (PDV)
+Banco (transferências)
+E-commerce (pedidos)
+Sistemas de cadastro
+🔄 OLTP vs Data Warehouse (OLAP)
+
+Aqui está o ponto mais importante:
+
+
+| OLTP 🧾                   | OLAP 📊 (Data Warehouse) |
+| ------------------------- | ------------------------ |
+| Operacional (dia a dia)   | Analítico (decisão)      |
+| Dados atuais              | Dados históricos         |
+| Muitas transações rápidas | Consultas complexas      |
+| Ex: registrar venda       | Ex: analisar vendas      |

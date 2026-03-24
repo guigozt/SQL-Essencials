@@ -1,0 +1,295 @@
+75. Sobre os impactos do uso de Big Data, pode-se afirmar que:
+
+As ações preditivas são permitidas graças ao imenso volume de dados analisados de diferentes fontes e, consequentemente, diferentes lugares.
+
+*
+(C) Certo
+(E) Errado
+
+Resposta: C
+
+76. Sobre os impactos do uso de Big Data, pode-se afirmar que:
+
+Decisões automatizadas roubam o lugar do ser humano, caracterizando-se como impacto negativo.
+
+*
+(C) Certo
+(E) Errado
+
+Resposta: E
+
+77. Sobre os impactos do uso de Big Data, pode-se afirmar que:
+
+Os interesses individuais de usuários consumidores estão cada vez mais compreendidos pelas empresas, obtendo resultados relevantes em suas consultas.
+
+*
+(C) Certo
+(E) Errado
+
+Resposta: C
+
+78. Sobre os impactos do uso de Big Data, pode-se afirmar que:
+
+O aumento do processamento de dados trouxe menos transparência de informações.
+
+*
+(C) Certo
+(E) Errado
+
+Resposta: E
+
+79. Sobre os impactos do uso de Big Data, pode-se afirmar que:
+
+Os planos de negócio são otimizados com Big Data, revendo ações estratégicas em função das informações obtidas sobre os padrões de clientes e de consumo de regiões selecionadas.
+
+*
+(C) Certo
+(E) Errado
+
+Resposta: C
+
+80.Atualmente, a grande dificuldade das empresas é saber lidar com seus banco de dados cada vez maiores. A solução está no Data Base Management System (DBMS – Sistema de Gestão de Banco de Dados). Sobre as características básicas do DBMS, assinale a alternativa correta.
+
+*
+(A) Utilizando apenas na gestão do banco de dados do tipo relacional.
+(B) O DBMS é o mesmo para todo e qualquer tipo de banco de dados ou empresa, apresentando módulos fixos.
+(C) Consiste em software(s) destinado(s) à criação, ao armazenamento, à organização e ao acesso aos dados por meio de sistemas modulares.
+(D) Exige a utilização de computadores com hardware avançados e com alto poder de processamento.
+(E) Consiste em um software para leitura e um para escrita de dados.
+
+Resposta: C
+
+81. O ________ possui uma estruturação em __________ com a função básica de gerar visualizações ____________ a partir de um único banco de dados. Tais visualizações são especificadas de acordo com os _________ dos usuários.
+
+Assinale a alternativa que completa adequadamente as lacunas:
+
+*
+(A) Banco de dados geral; símbolos; gráficas; ideias.
+(B) DBMS; equipes; impressas; objetivos.
+(C) Servidor; rede; em nuvem; históricos.
+(D) BDR; DBMS; DML; requisitos.
+(E) DBMS; módulos; lógicas; interesses.
+
+Resposta: E
+
+82. O Brasil possui 5.570 cidades e 27 estados, imagine ter cem indicadores de cada cidade para fazer o diagnóstico de como está a situação em várias áreas.
+
+Se tivermos tantos dados de indicadores de cada cidade do Brasil, na ordem de terabytes ou zetabytes, como chamamos?
+
+*
+(A) Dados inteligentes.
+(B) Good Data.
+(C) Big Data.
+(D) Smart Data.
+(E) Bytes Dados.
+
+Resposta: C
+
+83. Pensando na definição de Big Data, qual das alternativas a seguir traz corretamente as palavras-chave desse concepção?
+
+*
+(A) Valor; criação; avaliação; consultas; processamento.
+(B) Estratégia; oferta; objetivos; velocidade; distribuição.
+(C) Integração; agregação; segurança; dispersão.
+(D) Distribuição; transparência, otimização; análises.
+(E) Volume; velocidade; veracidade; variedade; valor.
+
+Resposta: E
+
+84. Um dos conceitos básicos que são sempre usados quando se fala em banco de dados é a transação. Ela é usada para uma série de atividades no banco de dados, como atualizações dos dados, inserir dados, excluir, recuperar.
+
+1. Quando as transações são usadas para recuperar dados, são chamadas de ______
+
+2. Quando as transações são usadas para inserir, excluir e atualizar dados, são chamadas de ___________
+
+*
+(A) Transação de gravação; transação de leitura.
+(B) Transação de incluir; transação de leitura.
+(C) Transação de leitura; transação de leitura e gravação.
+(D) Transação de leitura; transação de execução.
+(E) Transação de excluir; transação de leitura.
+
+Resposta: C
+
+85. Observe a afirmativa a seguir:
+
+Nos sistemas de gerenciamento de banco de dados não relacionais, a garantia do _____________ é bem mais complexa em relação aos bancos de dados relacionais. Para isso, surge um conceito preparado para o NoSQL, conhecido como _____________. O seu funcionamento consistem em ter apenas duas das três propriedades, sendo elas: disponibilidade, consistência e _________ .
+
+Assinale a alternativa que completa adequadamente as lacunas acima:
+
+*
+(A) CAP; ACID; isolamento.
+(B) CAP; ACID; tolerância.
+(C) ACID, CAP; durabilidade.
+(D) ACID; CAP; tolerância.
+(E) ACID, CAP, isolamento.
+
+Resposta: B
+
+86. Uma característica comum aos bancos de dados não relacionais é poder receber dados de diversos tipos, ou ainda, com o número de atributos diferentes em cada uma das linhas encontrada nas tabelas. Essa flexibilidade encontrada no banco de dados NoSQL não seria possível em banco de dados do tipo relacional. O Banco de Dados NoSQL pode receber dados não estruturados, pois:
+
+*
+(A) Não possui relacionamentos.
+(B) Possui relacionamentos.
+(C) Não possui schema.
+(D) Possui schema.
+(E) Não possui chave estrangeira.
+
+Resposta: C
+
+87. Quanto à estrutura sintática da linguagem JSON, observe as asserções a seguir.
+
+I. Na estrutura linguística encontrada no JSON, é possível construir arrays para inserção de dados.
+
+PORQUE
+
+II. Trata-se de uma linguagem utilizada para manipulação de informações em banco de dados não relacional.
+
+Assinale a alternativa acerca das asserções supracitadas, bem como a relação entre elas:
+
+*
+(A) A primeira asserção está incorreta, e a segunda está correta.
+(B) A primeira asserção está correta, e a segunda justifica a primeira.
+(C) A segunda asserção está correta, e a primeira justifica a primeira.
+(D) A primeira e a segunda asserção estão correta, porem não se justificam.
+(E) A primeira asserção está correta, e a segunda está incorreta.
+
+Resposta: E
+
+88. Nos bancos de dados orientado a ____________, a sua estrutura de armazenamento necessita de uma chave identificado conhecida pela sigla ___________. Essa chave deve identificar os registros univocamente. Normalmente é definida _____________ pelos sistemas de gerenciamento de banco de dados NoSQL.
+
+Assinale a alternativa que completa adequadamente as lacunas acima:
+
+*
+(A) Documentos; UID: aleatoriamente.
+(B) Colunas; UUID; dinamicamente.
+(C) Documentos; NUID; manualmente.
+(D) Chave-valor; SGDB; manualmente.
+(E) Documentos; UUID; automaticamente.
+
+Resposta: E
+
+89. Existem dois tipos de arquiteturas de banco de dados, o relacional e o não relacional (NoSQL), cada um deles dirigido para aplicações diferentes. Com base no exposto, analise as afirmativas a seguir:
+
+I. No banco de dados do tipo relacional a escalabidade é facilmente configurada com alguns comandos.
+
+II. No banco de dados do tipo não relacional, não existe garantia de consistência dos dados.
+
+III. A disponibilidade tanto em banco de dados relacional, quanto não relacional, é a mesma.
+
+Assinale a alternativa correta.
+
+*
+(A) Somente a alternativa I está correta.
+(B) Somente a alternativa II está correta.
+(C) Somente a alternativa III está correta.
+(D) Somente as alternativas I e II estão corretas.
+(E) Somente as alternativas II e III estão corretas.
+
+Resposta: B
+
+90. Os dados são gerados a todo momento, seja em uma simples navegação em uma rede social, aquele usuário que está pesquisando vagas de emprego, ou, ainda, o envio de planilhas de uma matriz para uma filial.
+
+Para armazenar todos esses dados, dos mais variados tipos, foi necessário desenvolver um banco de dados que atendesse a essas características e ainda preservasse os parâmetros importantes característicos aos sitemas de gerenciamento de banco de dados, e é aí que surge o conceito de NoSQL.
+
+Com base nisso, assinale a alternativa com o nome do tipo de banco NoSQL em que nas tabelas as linhas não possuem o mesmo número de colunas.
+
+*
+(A) Relacional.
+(B) Colunar.
+(C) Orientado a documentos.
+(D) Valor-chave.
+(E) Grafos.
+
+Resposta: B
+
+91. Uma escola de cursos preparatórios para certificação de redes deseja utilizar um banco NoSQL para que seja possível fazer uma análise de mercado para direcionar as propagandas aos prováveis alunos.
+
+Para isso, será necessário coletar dados de redes sociais separadas por três grupos, sendo eles: graduandos, cidade em que reside, área de interesse. Após essas coletas, os dados têm que ser relacionados entre si. Para a necessidade encontrada no cenário descrito, o tipo de banco de dados NoSQL indicado é o:
+
+*
+(A) Valor-chave.
+(B) Orientado a documentos.
+(C) Colunar.
+(D) Grafos.
+(E) Relacional.
+
+Resposta: D
+
+92. Os desenvolvedores de software apontam a simplicidade do JSON como uma marca da linguagem de programação. Isso faz com que com poucas instruções, por exemplo, consiga-se fazer uma inserção em um banco de dados não relacional.
+
+Com base no exposto, assinale a alternativa correta.
+
+*
+(A) Deve ser utilizada a palavra reservada INSERT seguida dos atributos.
+(B) Os atributos devem ser inseridos entre chaves, separados por vírgula, sem a necessidade de se declarar as chaves.
+(C) São separados em dois blocos de código, um com o nome das chaves, e o outro bloco com os seus respectivos valores.
+(D) Só é possível fazer inserções por meio da palavra reservada INPUT, seguido do valor.
+(E) O JSON é baseado na estrutura chave/valor.
+
+Resposta: E
+
+93. Por muito tempo, os bancos de dados do tipo relacional eram a principal opção para diversas aplicações. Com esse tipo de banco, é possível resolver diversos tipos de problemas e ter uma estrutura uniforme e organizada. Porém, nem todos os cenários possuem dados que se encaixam no tipo relacional, e é aí que surge o conceito de banco não relacional.
+
+Quanto às características encontradas no sistema
+
+de gerenciamento de banco de dados orientado a documentos MongoDB, observe as afirmativas a seguir.
+
+I. Possui suporte a matrizes e objetos aninhados.
+
+II. Linguagem de consulta SQL padrão.
+
+III. Não permite transações ACID, devido à orientação a documentos.
+
+Assinale a alternativa correta.
+
+*
+(A) Somente a alternativa I está correta.
+(B) Somente a alternativa II está correta.
+(C) Somente a alternativa III está correta.
+(D) Somente as alternativas I e II estão corretas.
+(E) Somente as alternativas II e III estão corretas.
+
+Resposta: A
+
+94. Bancos de dados relacionais popularizaram-se na década de 1970, mas com a expansão da informação e a necessidade de rápidas respostas a consultas surgiram os bancos de dados não relacionais, com uma abordagem diferenciada quanto às estruturas de armazenamento e recuperação das informações. As diferenças entre ambos os bancos são bastante evidentes, mas pode-se dizer que a mais importante no NoSQL é:
+
+*
+(A) A capacidade de definir tipos de dados em suas estruturas.
+(B) O fato de possuir chaves primárias para cada inserção.
+(C) O fato de não possuir schemas pré-definidos.
+(D) Poder realizar relacionamento entre dados através de Joins.
+(E) O fato de serem mais lentos que bancos relacionais.
+
+Resposta: C
+
+95. Quais são os caracteres estruturais que encontramos em expressões JSON?
+
+*
+(A) Abre e fecha chaves, abre e fecha colchetes, dois pontos, aspas duplas e vírgula.
+(B) Abre e fecha chaves, abre e fecha colchetes, dois pontos e vírgula.
+(C) Abre e fecha chaves, abre e fecha colchetes, dois pontos e “ponto e virgula”.
+
+Resposta: A
+
+96. O que é “serializar” a instância de uma classe?
+
+*
+(A) Incluir a classe em um array serializado.
+(B) Transformar JSON em classe.
+(C) Transformar a classe em JSON.
+ 
+Resposta: C
+
+97. Veja o JSON abaixo: 
+
+{ “Codigo”: “01”, “Nome”:”Pedro”, “Profissão”:”Arquiteto”}
+
+Como deve ser a tabela para armazenar este JSON em MYSQL?
+
+*
+(A) CODIGO VARCHAR(2), NOME VARCHAR(30), PROFISSAO VARCHAR(50)
+(B) JSON VARCHAR(500)
+(C) CODIGO VARCHAR(2), JSON VARCHAR(500)
+
+Resposta: A

@@ -1,0 +1,58 @@
+🛒 Exemplo de uso de Data Warehouse (Supermercado)
+🧾 1. Dados brutos (origem)
+
+Todos os dias o supermercado gera dados, como:
+
+Vendas no caixa (produto, preço, quantidade)
+Cadastro de clientes
+Estoque
+Promoções
+Fornecedores
+
+👉 Esses dados vêm de vários sistemas diferentes (PDV, ERP, etc.)
+
+🔄 2. ETL (tratamento dos dados)
+
+Antes de ir para o Data Warehouse, os dados passam por um processo:
+
+Extrair: pegar os dados dos sistemas
+Transformar: limpar erros, padronizar nomes (ex: “Coca-Cola” vs “coca cola”)
+Carregar: enviar para o Data Warehouse
+
+🗄️ 3. Data Warehouse (armazenamento)
+
+Agora os dados ficam organizados de forma ideal para análise.
+
+Exemplo simplificado de tabela:
+
+Produto	Data	Quantidade	Valor
+Arroz	01/03	50	1000
+Refrigerante	01/03	30	600
+
+📊 4. Análises estratégicas (resultado)
+
+Aqui entra o valor real 💡
+
+O supermercado pode responder perguntas como:
+
+📈 Vendas
+Qual produto vende mais?
+Qual vende menos?
+🗓️ Tempo
+Qual dia da semana vende mais?
+Existe sazonalidade? (ex: mais vendas no fim de semana)
+👥 Clientes
+Quem compra mais?
+Quais produtos são comprados juntos?
+💰 Financeiro
+Qual produto dá mais lucro?
+Quais promoções funcionam melhor?
+🎯 5. Tomada de decisão
+
+Com essas análises, o supermercado pode:
+
+Colocar mais estoque de produtos que vendem mais
+Criar promoções estratégicas
+Organizar melhor as prateleiras
+Negociar melhor com fornecedores
+Melhorar o lucro
