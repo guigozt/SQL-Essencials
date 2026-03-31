@@ -1,0 +1,107 @@
+{
+  "by": "default",
+  "valid_key": false,
+  "results": {
+    "currencies": {
+      "source": "BRL",
+      "USD": {
+        "name": "Dollar",
+        "buy": 5.2207,
+        "sell": 5.235,
+        "variation": -0.592
+      },
+      "EUR": {
+        "name": "Euro",
+        "buy": 6.0158,
+        "sell": 6.0314,
+        "variation": -0.013
+      },
+      "GBP": {
+        "name": "Pound Sterling",
+        "buy": 6.8877,
+        "sell": null,
+        "variation": -0.503
+      },
+      "ARS": {
+        "name": "Argentine Peso",
+        "buy": 0.0038,
+        "sell": null,
+        "variation": 2.703
+      },
+      "CAD": {
+        "name": "Canadian Dollar",
+        "buy": 3.7412,
+        "sell": null,
+        "variation": -0.753
+      },
+      "AUD": {
+        "name": "Australian Dollar",
+        "buy": 3.5781,
+        "sell": null,
+        "variation": -0.501
+      },
+      "JPY": {
+        "name": "Japanese Yen",
+        "buy": 0.0328,
+        "sell": null,
+        "variation": -0.304
+      },
+      "CNY": {
+        "name": "Renminbi",
+        "buy": 0.7569,
+        "sell": null,
+        "variation": -0.342
+      },
+      "BTC": {
+        "name": "Bitcoin",
+        "buy": 369059.367,
+        "sell": 369059.367,
+        "variation": -0.257
+      }
+    },
+    "stocks": {
+      "IBOVESPA": {
+        "name": "BM&F BOVESPA",
+        "location": "Sao Paulo, Brazil",
+        "points": 185791.86,
+        "variation": 1.8
+      },
+      "IFIX": {
+        "name": "Índice de Fundos de Investimentos Imobiliários B3",
+        "location": "Sao Paulo, Brazil",
+        "points": 3868.25,
+        "variation": 0.18
+      },
+      "NASDAQ": {
+        "name": "NASDAQ Stock Market",
+        "location": "New York City, United States",
+        "points": 21130.93,
+        "variation": 1.63
+      },
+      "DOWJONES": {
+        "name": "Dow Jones Industrial Average",
+        "location": "New York City, United States",
+        "points": 45544.96,
+        "variation": 0.73
+      },
+      "CAC": {
+        "name": "CAC 40",
+        "location": "Paris, French",
+        "points": 7841.16,
+        "variation": 0.88
+      },
+      "NIKKEI": {
+        "name": "Nikkei 225",
+        "location": "Tokyo, Japan",
+        "points": 51063.72,
+        "variation": -1.58
+      }
+    },
+    "available_sources": [
+      "BRL"
+    ],
+    "taxes": []
+  },
+  "execution_time": 0.0,
+  "from_cache": true
+}

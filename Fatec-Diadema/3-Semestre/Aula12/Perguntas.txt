@@ -1,0 +1,34 @@
+1. Qual o comando para incluir o JSON?
+• 2. Qual o comando para pesquisar o dólar de 
+hoje?
+• 3. Qual o comando para pesquisar o euro de 
+hoje?
+• 4. Qual o comando para pesquisar Peso 
+argen no?
+• 5. Qual o comando para pesquisar YEN?
+8
+• 6. Qual o comando para pesquisar o pontos do 
+IBOVESPA?
+• 7. Qual o comando para pesquisar a variação do 
+IBOVESPA?
+• 8. Qual o comando para pesquisar o pontos do IFIX?
+• 9. Qual o comando para pesquisar a variação do 
+IFIX?
+• 10. Qual o comando para pesquisar o pontos do 
+NASDAQ?
+• 11. Qual o comando para pesquisar a variação do 
+NASDAQ?
+9
+• 12. Qual o comando para pesquisar o pontos do 
+DOWJONES?
+• 13. Qual o comando para pesquisar a variação do 
+DOWJONES?
+• 14. Qual o comando para pesquisar o pontos do 
+CAC?
+• 15. Qual o comando para pesquisar a variação do 
+CAC?
+• 16. Qual o comando para pesquisar o pontos do 
+NIKKEI?
+• 17. Qual o comando para pesquisar a variação do 
+NIKKEI?
+10
