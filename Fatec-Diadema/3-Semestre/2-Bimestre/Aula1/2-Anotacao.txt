@@ -1,0 +1,81 @@
+Pilares da análise
+
+    🧩 1. Dados
+        São fatos brutos, sem contexto.
+
+        👉 Exemplo:
+            -   100
+            -   João
+            -   01/01/2026
+
+        💡 Sozinhos, não dizem muita coisa.
+
+    📊 2. Informação
+
+        É quando os dados ganham significado.
+
+        👉 Exemplo:
+            -   João fez uma compra de R$100 em 01/01/2026
+
+        💡 Agora já dá pra entender o que aconteceu.
+
+    🧠 3. Conhecimento
+
+        É quando você entende o padrão ou o motivo.
+
+        👉 Exemplo:
+            -   “João costuma comprar todo começo de mês”
+
+        💡 Aqui você já consegue interpretar o comportamento.
+
+    🎯 4. Sabedoria
+
+        É usar o conhecimento para tomar decisões.
+
+        👉 Exemplo:
+            -   “Vamos mandar promoções no começo do mês porque João (e outros clientes) compram nessa época”
+
+        💡 Aqui você age com base no que aprendeu.
+
+-----------------------------------------------
+⚔️ OLTP vs OLAP
+
+    🔹 OLTP (Online Transaction Processing)
+        👉 Usado para operações do dia a dia
+
+    Função:
+
+    -   Registrar transações rapidamente
+
+    Exemplos:
+    -   Inserir uma venda
+    -   Atualizar estoque
+    -   Cadastro de cliente
+
+    Características:
+    -   Muitas operações pequenas (insert, update, delete)
+    -   Dados atuais (tempo real)
+    -   Alta velocidade de escrita
+    -   Estrutura bem normalizada
+
+    💡 Pense: “sistema rodando o negócio”
+
+    🔸 OLAP (Online Analytical Processing)
+        👉 Usado para análise de dados
+
+        Função:
+        -   Explorar dados para gerar insights
+
+        Exemplos:
+        -   Relatórios
+        -   Dashboards
+        -   Análise de vendas por mês
+
+        Características:
+        -   Consultas complexas
+        -   Grandes volumes de dados
+        -   Foco em leitura
+        -   Dados históricos
+        -   Estrutura mais desnormalizada (mais fácil de consultar)
+
+        💡 Pense: “entender o negócio”

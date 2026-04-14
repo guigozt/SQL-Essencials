@@ -1,0 +1,130 @@
+Linha de produção de dados:
+
+Você pega dados brutos → organiza para operação → integra tudo → transforma → armazena para análise → analisa → tira conclusões
+
+1. Source (Fonte de dados)
+
+    É de onde os dados nascem.
+
+    Exemplos:
+
+    Sistemas de vendas
+    Apps
+    Planilhas
+    APIs
+
+    👉 Aqui os dados estão “crus”, sem tratamento.
+
+2. OLTP (Online Transaction Processing)
+
+    São os sistemas operacionais do dia a dia.
+
+    Exemplo:
+
+    Sistema de banco
+    Sistema de e-commerce
+
+    👉 Foco: registrar transações rapidamente
+
+    Inserir pedido
+    Atualizar estoque
+
+    ⚠️ Não é feito para análise, e sim para operação.
+
+3. Outros dados
+
+    Dados externos ou complementares.
+
+    Exemplo:
+
+    Dados de mercado
+    Dados de redes sociais
+    Arquivos CSV externos
+
+    👉 Serve para enriquecer o que você já tem.
+
+4. DL (Data Lake)
+
+    Um “lago de dados” onde tudo é guardado como está.
+
+    👉 Características:
+
+    Guarda dados brutos
+    Estruturados ou não (texto, imagem, etc.)
+    Sem muita organização inicial
+
+    💡 Pense como um depósito gigante.
+
+5. ETL e ELT
+
+    Aqui acontece a transformação dos dados.
+
+    🔧 ETL (Extract, Transform, Load)
+    Extrai
+    Transforma
+    Carrega no destino
+    🔧 ELT (Extract, Load, Transform)
+    Extrai
+    Carrega
+    Transforma depois
+
+    👉 Diferença principal:
+
+    ETL transforma antes
+    ELT transforma depois
+
+6. DW (Data Warehouse)
+
+    Banco de dados organizado para análise.
+
+    👉 Características:
+
+    Dados limpos e estruturados
+    Histórico armazenado
+    Otimizado para consultas
+
+    💡 Aqui já dá pra fazer análises mais sérias.
+
+7. DM (Data Mart)
+
+    Uma versão menor do DW, focada em uma área.
+
+    Exemplo:
+
+    DM de vendas
+    DM de marketing
+
+    👉 Facilita análises específicas.
+
+8. OLAP (Online Analytical Processing)
+
+    Ferramentas para analisar os dados.
+
+    👉 Permite:
+
+    Criar relatórios
+    Fazer comparações
+    Explorar dados (drill-down, etc.)
+
+    💡 Exemplo: dashboards no Power BI.
+
+9. Conclusões (Insights)
+
+    Aqui entra o objetivo final.
+
+    👉 Você responde perguntas como:
+
+    Qual produto vende mais?
+    Quando vendemos mais?
+    Onde estamos perdendo dinheiro?
+
+    💡 Resultado:
+
+    Decisões melhores
+    Estratégias de negócio
+
+Resumão mental (bem simples)
+
+Fonte → Sistema (OLTP) → Junta tudo → Guarda (Data Lake)
+→ Trata (ETL/ELT) → Organiza (DW/DM)
+→ Analisa (OLAP) → Decide (Conclusões)
