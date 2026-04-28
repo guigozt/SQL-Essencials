@@ -1,0 +1,55 @@
+🧠 O que é CRM
+
+CRM (Customer Relationship Management) = gestão de relacionamento com clientes
+
+👉 É um sistema focado em vendas e clientes
+
+📌 O que ele faz:
+Guarda dados de clientes
+Acompanha leads (potenciais clientes)
+Controla funil de vendas
+Registra interações (e-mail, ligação, etc.)
+🧩 Exemplo na prática:
+Você vê que um cliente demonstrou interesse
+acompanha em que etapa da venda ele está
+registra contato e histórico
+
+👉 Ferramentas conhecidas:
+
+Salesforce
+HubSpot
+🏢 O que é ERP
+
+ERP (Enterprise Resource Planning) = sistema de gestão empresarial
+
+👉 É um sistema que integra toda a empresa
+
+📌 O que ele faz:
+Controle financeiro
+Estoque
+compras
+RH
+produção
+🧩 Exemplo na prática:
+registra uma venda
+baixa o estoque automaticamente
+atualiza o financeiro
+
+👉 Ferramentas conhecidas:
+
+SAP ERP
+Oracle ERP
+🔗 Diferença principal
+CRM → foco no cliente e vendas
+ERP → foco na operação da empresa
+
+🔄 Como eles se conectam
+
+👉 Em muitas empresas, eles trabalham juntos:
+
+CRM registra a venda
+ERP processa a venda (financeiro, estoque)
+🎯 Resumo simples
+
+CRM ajuda a vender
+ERP ajuda a operar o negócio
