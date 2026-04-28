@@ -1,0 +1,58 @@
+⚡ 1. Velocidade extrema
+
+Foco em leitura e escrita rápidas
+
+Dados armazenados em formato documento (BSON)
+Menos JOINs que bancos relacionais
+Estrutura flexível → menos processamento
+
+👉 Resultado:
+
+aplicações mais rápidas
+ideal para grandes volumes de dados
+🌐 2. Escalabilidade horizontal
+
+Cresce adicionando mais máquinas (não só aumentando uma)
+
+Usa sharding
+Divide dados entre vários servidores
+
+👉 Resultado:
+
+suporta milhões de usuários
+usado por grandes sistemas (apps, e-commerce, streaming)
+🔒 3. Confiabilidade
+
+Dados seguros e disponíveis
+
+Replicação (várias cópias dos dados)
+Failover automático (se um servidor cai, outro assume)
+
+👉 Resultado:
+
+menos risco de perda
+alta disponibilidade
+👍 4. Usabilidade
+
+Fácil de usar e desenvolver
+
+Estrutura parecida com JSON
+Não precisa schema rígido
+Fácil integração com linguagens modernas
+
+👉 Resultado:
+
+desenvolvimento mais rápido
+menos burocracia que SQL tradicional
+🔓 5. Acesso
+
+Fácil acesso aos dados
+
+APIs simples
+Suporte a várias linguagens (Node, Python, Java, etc.)
+Consultas diretas e intuitivas
+
+👉 Resultado:
+
+dados acessíveis rapidamente
+integração simples com aplicações

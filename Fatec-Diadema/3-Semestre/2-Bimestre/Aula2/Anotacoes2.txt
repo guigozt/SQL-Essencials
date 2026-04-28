@@ -1,0 +1,73 @@
+🧠 Cenário de BI: Empresa de delivery
+
+A empresa coleta dados como:
+
+pedidos
+valor
+tempo de entrega
+avaliações dos clientes
+📊 1. Análise Descritiva (O que aconteceu?)
+
+Só mostra os fatos
+
+Exemplos:
+
+Quantos pedidos foram feitos ontem?
+Qual foi o faturamento do mês?
+Tempo médio de entrega
+
+👉 Resultado:
+“Ontem tivemos 5.000 pedidos e faturamos R$ 120 mil”
+
+🔍 2. Análise Diagnóstica (Por que aconteceu?)
+
+Explica o motivo
+
+Exemplo:
+
+Por que o faturamento caiu?
+
+Investigação:
+
+menos pedidos?
+tickets menores?
+problema em uma região?
+
+👉 Resultado:
+“Caiu porque o tempo de entrega aumentou em SP e os clientes pediram menos”
+
+🔮 3. Análise Preditiva (O que vai acontecer?)
+
+Usa dados históricos pra prever
+
+Exemplos:
+
+Quantos pedidos teremos no fim de semana?
+Vai ter atraso nas entregas?
+
+👉 Resultado:
+“No sábado teremos pico de pedidos entre 19h e 22h”
+
+🎯 4. Análise Prescritiva (O que deve ser feito?)
+
+Sugere ações
+
+Exemplo:
+
+O que fazer com base na previsão?
+
+👉 Resultado:
+
+aumentar número de entregadores
+criar promoções em horários mais fracos
+ajustar rotas
+🔗 Diferença na prática (bem direto)
+Descritiva → “Vendemos menos”
+Diagnóstica → “Porque demorou mais”
+Preditiva → “Vai piorar no sábado”
+Prescritiva → “Coloque mais entregadores”
+🧩 Outro exemplo rápido (Netflix/streaming)
+Descritiva: quantas pessoas assistiram uma série
+Diagnóstica: por que pararam no episódio 3
+Preditiva: quem vai cancelar assinatura
+Prescritiva: recomendar conteúdos pra evitar cancelamento

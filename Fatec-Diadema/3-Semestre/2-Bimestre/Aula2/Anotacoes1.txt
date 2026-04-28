@@ -1,0 +1,140 @@
+🌟 Modelo estrela
+
+O modelo estrela (ou star schema) é uma forma de organizar dados em um banco, muito usada em Data Warehouses (bancos voltados para análise).
+
+🌟 Ideia principal
+
+Ele tem esse nome porque lembra uma estrela:
+
+Uma tabela central (fato)
+Várias tabelas ao redor (dimensões)
+🧠 Componentes
+
+1. Tabela Fato (centro)
+
+Guarda os dados numéricos que você quer analisar
+Ex: vendas, quantidade, valor total
+
+Exemplo:
+
+Vendas
+- id_produto
+- id_cliente
+- id_tempo
+- valor_venda
+- quantidade
+
+2. Tabelas Dimensão (laterais)
+
+Guardam os detalhes descritivos
+Ajudam a entender os dados da tabela fato
+
+Exemplos:
+
+Produto
+- id_produto
+- nome
+- categoria
+
+Cliente
+- id_cliente
+- nome
+- cidade
+
+Tempo
+- id_tempo
+- dia
+- mês
+- ano
+🔗 Como funciona
+
+A tabela fato se conecta com as dimensões por chaves (IDs).
+
+Isso permite fazer perguntas como:
+
+“Quanto vendi por mês?”
+“Qual produto vende mais?”
+“Qual cidade gera mais receita?”
+👍 Vantagens
+Simples de entender
+Rápido para consultas
+Ótimo para relatórios e BI
+👎 Desvantagens
+Pode ter dados repetidos nas dimensões
+Não é ideal para sistemas operacionais (transacionais)
+
+-------------------------------------
+
+❄️ Modelo Snowflake (floco de neve)
+
+O modelo snowflake é uma evolução do modelo estrela.
+A principal ideia é:
+
+As tabelas dimensão são normalizadas (ou seja, quebradas em várias tabelas menores).
+
+🧠 Como ele funciona
+
+Em vez de uma dimensão única com tudo junto, você divide em partes.
+
+Exemplo:
+
+No modelo estrela:
+
+Produto
+- id_produto
+- nome
+- categoria
+- marca
+
+No snowflake:
+
+Produto
+- id_produto
+- nome
+- id_categoria
+- id_marca
+
+Categoria
+- id_categoria
+- nome_categoria
+
+Marca
+- id_marca
+- nome_marca
+
+👉 Ou seja: a dimensão "se ramifica", parecendo um floco de neve.
+
+🌟 vs ❄️ Diferença principal
+Estrutura
+Estrela: dimensões simples (tudo em uma tabela)
+Snowflake: dimensões divididas (normalizadas)
+
+🧠 Quando usar cada um
+
+Use estrela quando:
+
+Quer simplicidade
+Precisa de performance em consultas
+Está fazendo BI / dashboards
+
+Use snowflake quando:
+
+Quer evitar duplicação de dados
+Tem dimensões muito grandes/complexas
+Precisa de mais organização e consistência
+🧩 Resumo final
+🌟 Estrela = simples e rápido
+❄️ Snowflake = mais organizado e normalizado
+
+--------------------------------------------
+
+📊 Dimensões mais comuns (quase sempre aparecem)
+
+Mesmo não sendo obrigatórias por teoria, na prática quase todo modelo tem:
+
+Tempo (Data) ⏱️
+👉 praticamente indispensável
+(analisar por dia, mês, ano, etc.)
+
+Localização 📍
+👉 onde aconteceu
