@@ -1,0 +1,39 @@
+Banco de Dados – Resumo Geral (Direto e Simples)
+
+Banco de dados hierárquico
+Organiza os dados em forma de árvore, com relação um-para-muitos.
+Exemplo: Empresa → Departamentos → Funcionários (cada funcionário pertence a um único departamento).
+
+Banco de dados em rede
+Organiza os dados como um grafo, com relações muitos-para-muitos.
+Exemplo: Alunos e disciplinas (um aluno pode fazer várias disciplinas e uma disciplina pode ter vários alunos).
+
+Banco de dados orientado a objetos
+Armazena dados como objetos com atributos e métodos.
+Exemplo: Classe Produto (nome, preço) e classe Eletrônico (herda Produto e tem garantia).
+
+Modelo estrela
+Possui uma tabela fato central ligada a tabelas dimensão.
+Exemplo: Fato_Vendas ligada a Produto, Cliente e Tempo.
+
+OLTP e OLAP
+OLTP: usado no dia a dia, com transações rápidas.
+OLAP: usado para análise de dados e relatórios.
+
+Características do BD transacional (OLTP)
+
+Muitas transações
+Respostas rápidas
+Dados em tempo real
+Alta concorrência
+Integridade (ACID)
+
+Banco de dados analítico (OLAP)
+Voltado para análise, com dados históricos e consultas complexas.
+
+Diferença DW e Data Mart
+DW: visão completa da empresa
+Data Mart: parte do DW, focado em um setor
+
+Técnicas de Kimball
+Modelagem dimensional, modelo estrela, dimensões, fatos, granularidade, SCD.
