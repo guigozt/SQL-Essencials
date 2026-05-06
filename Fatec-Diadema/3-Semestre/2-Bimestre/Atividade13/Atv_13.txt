@@ -1,0 +1,44 @@
+**Exercícios – Respostas Diretas**
+
+**154. Quais os elementos básicos que compõem um modelo multidimensional e um modelo relacional, respectivamente?**
+Modelo multidimensional: fatos, dimensões e métricas; modelo relacional: entidade, relacionamento, atributos.
+
+---
+
+**155. A sumarização e reestruturação dos dados permite representá-los em visões... Qual é a técnica?**
+Granularidade
+
+---
+
+**156. O que representa atributos valorados numericamente nas tabelas Fato?**
+Medidas
+
+---
+
+**157. Assinale a alternativa correta sobre tabelas Fato e Dimensão:**
+As tabelas de dimensões representam características descritivas e têm relação 1:N com a tabela fato.
+
+---
+
+**158. O ______ é a abordagem com tabela Fato central e dimensões ao redor:**
+Esquema Estrela
+
+---
+
+**159. Sobre vantagens do Esquema Estrela:**
+I, III e IV
+
+---
+
+**160. Ferramentas para análise multidimensional em DW:**
+OLAP
+
+---
+
+**161. Complete:**
+OLTP; OLAP
+
+---
+
+**162. Operações OLAP:**
+Drill Down, Drill Up, Slice, Dice

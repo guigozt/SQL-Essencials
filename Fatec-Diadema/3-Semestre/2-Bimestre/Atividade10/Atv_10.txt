@@ -1,0 +1,43 @@
+Anotações – Data Warehouse e Banco de Dados
+
+113.
+(D) Porque a volumetria exigida não pode ser suportada em bancos operacionais.
+
+114.
+(B) A estratégia de dados.
+
+115.
+(C) Um Data Warehouse.
+
+116. CRM
+Sistema de gerenciamento de relacionamento com clientes, que armazena interações, dados e histórico para melhorar vendas e atendimento.
+
+117. Staging Area
+Área temporária onde os dados são extraídos, tratados e preparados antes de ir para o Data Warehouse.
+
+118. Separação entre dados operacionais e analíticos
+
+Evita sobrecarga no sistema operacional
+Melhora desempenho
+Separa dados atuais de históricos
+Facilita análise
+Otimiza cada sistema para sua função
+
+119. Tempo gasto com dados
+Cerca de 70% a 80% do tempo é gasto coletando, limpando e organizando dados; o restante é análise.
+
+120. Definição de DW (Inmon, 2005)
+Coleção de dados orientada por assunto, integrada, variável no tempo e não volátil, usada para apoio à decisão.
+
+121. Sistemas vs níveis organizacionais
+
+Operacional: dados detalhados, uso diário
+Tático: relatórios e controle
+Estratégico: dados resumidos para decisões
+
+122. Siglas
+
+TPS: sistema transacional
+MIS: sistema gerencial
+DSS: apoio à decisão
+EIS: sistema executivo

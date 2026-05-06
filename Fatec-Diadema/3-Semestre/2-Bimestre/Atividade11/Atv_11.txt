@@ -1,0 +1,37 @@
+125.
+(B) Data Marts.
+
+126.
+(D) I – II – III.
+
+127.
+(A) Independente, centralizada e acoplada.
+
+128. Data Mart
+Subconjunto do Data Warehouse focado em um setor específico.
+
+129. Diferença (DM vs DW)
+
+DW: visão completa da empresa
+DM: visão específica de um setor
+
+130. ETL
+Processo de extrair, transformar e carregar dados para o Data Warehouse.
+
+131. Data Staging
+Área temporária usada no processo de ETL.
+
+132. ODS
+Banco intermediário com dados operacionais integrados e atualizados.
+
+133. Arquiteturas de Data Mart
+
+Independente: sem integração com DW
+Centralizada: baseada em DW único
+Acoplada: derivada do DW
+
+134. Tipos de implementação
+
+Top-down: primeiro DW, depois Data Marts
+Bottom-up: primeiro Data Marts, depois DW
+Híbrido: mistura dos dois modelos
